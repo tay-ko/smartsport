@@ -34,16 +34,6 @@ CREATE TABLE `comments_post` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `comments_post`
---
-
-LOCK TABLES `comments_post` WRITE;
-/*!40000 ALTER TABLE `comments_post` DISABLE KEYS */;
-INSERT INTO `comments_post` VALUES (15,27,'fghfgh','ghfgh'),(16,27,'hgfhf','fghf');
-/*!40000 ALTER TABLE `comments_post` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `post`
 --
 
@@ -59,18 +49,6 @@ CREATE TABLE `post` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `post`
---
-
-LOCK TABLES `post` WRITE;
-/*!40000 ALTER TABLE `post` DISABLE KEYS */;
-INSERT INTO `post` VALUES (27,'andrey','sdgfdh fgh;lhkd;fjg\'ldgj\r\ngfhj dfhlf\'jg',1494838220,NULL);
-/*!40000 ALTER TABLE `post` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
